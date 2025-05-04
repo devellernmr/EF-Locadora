@@ -1,13 +1,16 @@
-@import url(public/assets/Fonts/Inter.ttf);
-@import url(public/assets/Fonts/Inter-Bold.ttf);
+@import url("/assets/Fonts/Inter.ttf");
+@import url("/assets/Fonts/Inter-Bold.ttf");
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 @font-face {
   font-family: "Novecento Sans Bold";
-  src: url("public/assets/Fonts/Novecentosanswide-DemiBold.otf") format("opentype");
+  src: url("/assets/Fonts/Novecentosanswide-DemiBold.otf") format("opentype");
+}
+
+@font-face {
   font-family: "Novecento Sans Normal";
-  src: url("public/assets/Fonts/Novecentosanswide-Normal.otf") format("opentype");
+  src: url("/assets/Fonts/Novecentosanswide-Normal.otf") format("opentype");
 }
 
 @import "tailwindcss";
@@ -19,11 +22,11 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #f0f0f0;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
