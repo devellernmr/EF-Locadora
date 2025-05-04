@@ -1,5 +1,8 @@
 import "./navbar.css";
 import { useState } from "react";
+import logoImg from "../../assets/img/logo-ef.png";
+import emailIcon from "../../assets/svg/email-icon.svg";
+import whatsappIcon from "../../assets/svg/whatsapp-icon.svg";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +15,9 @@ function Navbar() {
     <header>
       <nav className="nav-bar">
         <div className="logo">
-          <img src="public/assets/img/logo-ef.png" alt="Logo-EF" />
+          <img 
+          src={logoImg} 
+          alt="Logo-EF" />
         </div>
 
         <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
@@ -41,12 +46,15 @@ function Navbar() {
               <div className="buttons-a-nav">
                 <a className="btn-whatsapp">
                   <img
-                    src="public/assets/svg/whatsapp-icon.svg"
+                    src={whatsappIcon}
                     alt="Whatsapp-icon"
                   />
                 </a>
                 <a className="btn-email">
-                  <img src="public/assets/svg/email-icon.svg" alt="Email-icon" />
+                  <img
+                    src={emailIcon}
+                    alt="Email-icon"
+                  />
                 </a>
               </div>
               <button className="btn-orçamento">Solicite um orçamento</button>
@@ -76,7 +84,7 @@ function Navbar() {
                 />
               </a>
               <a className="btn-email">
-                <img src="public/assets/svg/email-icon.svg" alt="Email-icon" />
+                <img src={emailIcon} alt="Email-icon" />
               </a>
             </div>
             <button className="btn-orçamento">Solicite um orçamento</button>
