@@ -12,7 +12,7 @@ function Navbar() {
     <header>
       <nav className="nav-bar">
         <div className="logo">
-          <img src="src/assets/img/logo-ef.png" alt="Logo-EF" />
+          <img src="public/assets/img/logo-ef.png" alt="Logo-EF" />
         </div>
 
         <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
@@ -41,12 +41,12 @@ function Navbar() {
               <div className="buttons-a-nav">
                 <a className="btn-whatsapp">
                   <img
-                    src="src/assets/svg/whatsapp-icon.svg"
+                    src="public/assets/svg/whatsapp-icon.svg"
                     alt="Whatsapp-icon"
                   />
                 </a>
                 <a className="btn-email">
-                  <img src="src/assets/svg/email-icon.svg" alt="Email-icon" />
+                  <img src="public/assets/svg/email-icon.svg" alt="Email-icon" />
                 </a>
               </div>
               <button className="btn-orçamento">Solicite um orçamento</button>
@@ -63,7 +63,7 @@ function Navbar() {
           <div className="search-box">
             <input type="text" placeholder="Pesquisar produtos..." />
             <button type="submit">
-              <img src="src/assets/svg/search-icon.svg" alt="Pesquisar" />
+              <img src="public/assets/svg/search-icon.svg" alt="Pesquisar" />
             </button>
           </div>
 
@@ -71,12 +71,12 @@ function Navbar() {
             <div className="buttons-a-nav">
               <a className="btn-whatsapp">
                 <img
-                  src="src/assets/svg/whatsapp-icon.svg"
+                  src="public/assets/svg/whatsapp-icon.svg"
                   alt="Whatsapp-icon"
                 />
               </a>
               <a className="btn-email">
-                <img src="src/assets/svg/email-icon.svg" alt="Email-icon" />
+                <img src="public/assets/svg/email-icon.svg" alt="Email-icon" />
               </a>
             </div>
             <button className="btn-orçamento">Solicite um orçamento</button>
