@@ -3,6 +3,8 @@ import { useState } from "react";
 import logoImg from "../../assets/img/logo-ef.png";
 import emailIcon from "../../assets/svg/email-icon.svg";
 import whatsappIcon from "../../assets/svg/whatsapp-icon.svg";
+import searchIcon from "../../assets/svg/search-icon.svg";
+
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -38,7 +40,7 @@ function Navbar() {
             <div className="search-box">
               <input type="text" placeholder="Pesquisar produtos..." />
               <button type="submit">
-                <img src="src/assets/svg/search-icon.svg" alt="Pesquisar" />
+                <img src={searchIcon} alt="Pesquisar" />
               </button>
             </div>
 
@@ -71,7 +73,7 @@ function Navbar() {
           <div className="search-box">
             <input type="text" placeholder="Pesquisar produtos..." />
             <button type="submit">
-              <img src="public/assets/svg/search-icon.svg" alt="Pesquisar" />
+              <img src={searchIcon} alt="Pesquisar" />
             </button>
           </div>
 
@@ -79,7 +81,7 @@ function Navbar() {
             <div className="buttons-a-nav">
               <a className="btn-whatsapp">
                 <img
-                  src="public/assets/svg/whatsapp-icon.svg"
+                  src={whatsappIcon}
                   alt="Whatsapp-icon"
                 />
               </a>
