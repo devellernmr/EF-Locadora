@@ -2,9 +2,9 @@
 
 @font-face {
   font-family: "Novecento Sans Bold";
-  src: url("src/assets/Fonts/Novecentosanswide-DemiBold.otf") format("opentype");
+  src: url("public/assets/Fonts/Novecentosanswide-DemiBold.otf") format("opentype");
   font-family: "Novecento Sans Normal";
-  src: url("src/assets/Fonts/Novecentosanswide-Normal.otf") format("opentype");
+  src: url("public/assets/Fonts/Novecentosanswide-Normal.otf") format("opentype");
 }
 
 @import "tailwindcss";
